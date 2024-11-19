@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --ash:#B2B0BF;
+    --blue:#433DF2;
+    --tint-blue:#9E9BF2;
+    --black:#131826;
+    --ghost:#F2F2F2;
+}
+
+#landing-page .nav-bar{
+    display: flex;
+    gap: 20em;
+    padding: 2em;
+}
+
+.nav-bar h1{
+    margin-left: 4em;
+    transition: transform ease-in-out 300ms;
+}
+
+.nav-bar h1:hover{
+    color:red;
+    transform: scale(0.95);
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    margin: 1em;
+    color: var(--black);
+    font-weight: 600;
+    transition: transform ease-in-out 300ms;
+}
+
+
+.nav-bar ul a:hover{
+    color:red;
+    transform: scale(0.95);
+  
+   
+}
+
+.nav-bar button{
+    border: none;
+    outline: none;
+    border-radius: 0.6em;
+    background: var(--blue);
+    padding: 0.9em 0.6em;
+    color: var(--ghost);
+    transition: transform ease-in-out 300ms;
+}
+
+.nav-bar button:hover{
+    background: var(--black);
+    transform: scale(0.95);
+
+}
+
+
+
+.land-page-content .write-up{
+    text-align: center;
+    margin-top: 5em;
+   
+    
+    
+}
+
+.land-page-content img{
+    margin-left: 32%;
+    margin-top: 3.5em;
+    width: 30%;
+    transform: rotate(45deg);
+}
+
+.write-up p{
+    color: red;
+    font-size: 0.9em;
+    padding: 1em 0em;
+}
+.write-up h1{
+    font-size: 3em;
+    padding: 0.1em 0em;
+}
+
+.write-up aside{
+    color: grey;
+    padding: 0.95em 0em;
+}
+
+.write-up button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--blue);
+    padding: 11px 30px;
+    color: var(--ghost);
+    font-size: 1em;   
+    margin: 0.95em 0em;
+    transition: transform ease-in-out 300ms;
+}
+
+.write-up button:hover{
+    background: var(--black);
+    transform: scale(0.95);
+}
+
+.write-up span{
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 2em 0em;
+    transition: transform ease-in-out 3ms;
+}
+
+.write-up span:hover{
+    color: red;
+    transform: scale(0.95);
+}
+
+#listen-music{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    background: var(--ghost);
+    width: 100%;
+    height: 80vh;
+    
+}
+
+#listen-music img{
+    width: 35%;
+}
+
+
+#listen-music .listen-music-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    margin-top: 10em;
+    gap: 0.5em;
+    
+}
+
+.listen-music-content .write-up1 h1{
+    font-size: 3em;
+}
+
+.write-up1 p{
+    padding: 1em 0em;
+    color: gray;
+}
+
+.listen-music-content .row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.row .write-up2{
+   margin-top:-5em;
+   width: 80%;
+}
+
+.write-up2 .align1{
+    display: flex;
+    flex-direction: row;
+    /* gap: 1em; */
+}
+
+.align1 img{
+    width:50%;
+    height: 40%;
+    /* border-radius: 20%; */
+}
+
+.row .write-up3{
+    margin-right: 10em;
+    margin-top:-5em;
+    width: 100%;
+}
+
+.write-up3 .align3{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.align3 img{
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.write-up2 p{
+    margin-top: 1em;
+    color: gray;
+    
+}
+
+.write-up3 p{
+    margin-top: 1em;
+    color: gray;
+}
+
+
+#comfortable-buds{
+    display: flex;
+    flex-direction: row;
+    background: var(--blue);
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.comfortable-buds-content{
+    margin-left: 20em;
+    margin-top: 10em;
+    
+}
+
+.comfortable-buds-content h1{
+    color: var(--ghost);
+    font-size: 2.5em;
+}
+
+.comfortable-buds-content p{
+    color: rgba(245, 245, 245, 0.616);
+    padding: 1em 0em;
+    font-size: 20px;
+}
+
+.comfortable-buds-content .content2{
+    display: flex;
+    color: var(--ghost);
+    margin: 0.5;
+}
+
+.content2 aside{
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+.comfortable-buds-content .content2 .senior-friend{
+    width: 20%;
+    border-radius: 50%;
+    
+}
+
+.comfortable-buds-content small{
+    margin-bottom: em;
+    color:rgba(245, 245, 245, 0.616); 
+    margin-left: 12em;
+}
+
+#comfortable-buds .moses{
+    width: 40%;
+}
+
+
+#trendy-design{
+    display: flex;
+    flex-direction: column;
+    background: var(--black);
+    width: 100%;
+    height: 70vh;
+    color: var(--ghost);
+    
+}
+
+ #trendy-design .content{ 
+    text-align: center;
+    margin-top: 5em;
+
+} 
+
+#trendy-design .content img{
+    margin-top: 2em;
+    width: 14%;
+}
+
+.content h1{
+    font-size: 2em;
+}
+
+.content p{
+    margin-top: 1.5em;
+    color: rgba(245, 245, 245, 0.616); 
+}
+
+#get-airpod{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+#get-airpod .airpod-content{
+    text-align: center;
+    margin-top: 5em;
+
+}
+
+.airpod-content h1{
+    font-size: 2em;
+}
+
+.airpod-content p{   
+    color: gray;
+    margin-top: 1em;
+}
+
+#get-airpod .select-airpod{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 2em;
+    justify-content: center;
+    align-items:center;
+}
+
+.select-airpod img{
+    width: 15em;
+    margin-top: -2em;
+}
+
+
+
+
+.select-airpod button{
+    width:50%;
+    outline: none;
+    border: none;
+    border-radius: 0.6em;
+    background: var(--blue);
+    padding: 0.9em 0.6em;
+    color: white;
+    transition: transform ease-in-out 300ms;
+}
+
+
+.select-airpod button:hover{
+    background: var(--black);
+    transform: scale(0.95);
+
+}
+
+.select-airpod p{
+    color: gray; 
+    font-size: 0.95em;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    margin-top: 8em;
+    justify-content: center;
+    margin-right: 2.5em;
+}
+
+
+
+#cta img{
+    margin-top: 5em;
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-top: 2em;
+    padding: 3em;
+}
+
+footer h2{
+    margin-left: 8em;
+    transition: transform ease-in-out 300ms;
+}
+
+footer h2:hover{
+    color:red;
+    transform: scale(0.95);
+}
+
+
+footer ul a{
+    margin: 1.5em;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+footer ul a:hover{
+    color:red;
+    transform: scale(0.95);
+}
+
+
